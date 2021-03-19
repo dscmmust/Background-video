@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script';
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url('./cyberpunk.gif');
+    background-size: cover;
+    src: local('Dancing Script'), local('DancingS');
+    color:#ddf542;
+}
+.header h1{
+    
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+.nav{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1000px;
+    width: 100px;
+}
+.nav ul li{
+list-style-type: none;
+text-align: center;
+border-radius: 50px;
+margin-left: 16px;
+background-color: #6e7069;
+padding: 12px;
+ 
+}
+ li:hover{
+    color: #ffffff;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.abt p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    justify-content: center;
+    color: #b9bdb3;
+    text-align: center;  
+}
+.abt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+   
+}
+.join{
+    margin-left: 26px;
+    margin-top: 19px; 
+    height: 100px;
+    width: auto;
+    padding: 20px;
+}
+.join img{
+    opacity: 0.5;
+    margin-left: 50px;
+    padding: 25px;
+    border: 1px solid #ddf542;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.join img:hover{
+    z-index: -1;
+    opacity: 1;
+    transition: 0.5s;
+   transition-timing-function: ease-in-out; 
+}
+.kat{
+    text-align: center;
+}
+
